@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  background-color: #e4f9f5;
+}
+
+h1 {
+  margin: 0px auto;
+  padding-top: 90px;
+  padding-bottom: 5px;
+  font-family: "Sacramento", cursive;
+  font-size: 4.5rem;
+  color: #11999e;
+  position: relative;
+  top: 30px;
+}
+
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
+
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 0;
+}
+
+h3 {
+  font-family: "Merriweather", serif;
+  color: #11999e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a {
+  color: #11999e;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  text-align: center;
+  position: relative;
+  height: 700px;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 70%;
+  top: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 25%;
+  bottom: 300px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+/* ---------------------------------------IMAGES------------------------------ */
+
+.profile-pic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.javascript-pic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.python-pic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.mountain {
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+}
+/* MIDDLE CONTAINER */
+.middle-container {
+  background-color: #eee;
+  color: #11999e;
+  width: 100%;
+}
+
+/* ----------------------------------PROFILE------------------------------- */
+.profile {
+  width: 45%;
+  text-align: center;
+  padding-top: 5%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.profile p {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* ---------------------------------SKILLS---------------------------- */
+
+.first-skill {
+  position: relative;
+  bottom: 100px;
+  width: 45%;
+  left: 44%;
+}
+
+.first-skill p {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.second-skill {
+  width: 45%;
+  position: relative;
+  bottom: 150px;
+  left: 20px;
+}
+
+.second-skill p {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* ---------------------------------CONTACT ME---------------------------- */
+
+.contact-me {
+  height: 260px;
+  background-color: #e4f9f5;
+  line-height: 2;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 30%;
+  margin: 0 auto;
+}
+.contact-me p {
+  color: #11999e;
+}
+
+.contact-me-inner {
+  position: relative;
+  top: 40px;
+}
+.contact-me p {
+  margin-bottom: 20px;
+}
+
+.contact-me h2 {
+  color: #11999e;
+}
+
+.contact-me h3 {
+  color: #11999e;
+}
+
+.btn {
+  text-decoration: none;
+  border: 1px solid #11999e;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: #11999e;
+}
+
+.btn:hover {
+  background-color: #11999ed0;
+  border: 1px solid #11999ed0;
+  color: white;
+}
+
+/* ---------------------------------FOOOTER--------------------------------- */
+
+.bottom-container {
+  background-color: #eee;
+
+  padding-top: 70px;
+  padding-bottom: .0px;
+}
+
+.footer-link {
+  padding: 20px;
+  text-decoration: none;
+}
+
+.bottom-container p {
+  margin-top: 30px;
+  color: #11999e;
+  padding: 20px 0 40px;
+}
+
+.bottom-container a:hover {
+  color: #11999ed0;
+}
+
+/* -----------------------MEDIA QUERIES--------------- */
+
+@media (max-width: 1125px) {
+  .mountain {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+  }
+}
+
+@media (max-width: 769px) {
+  .mountain {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    left: 10%;
+    bottom: 300px;
+  }
+
+  .contact-me {
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 642px) {
+  .mountain {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 607px) {
+  .mountain {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 489px) {
+    .contact-me{
+        width: 80%;
+    }
+}
+
+@media (max-width: 377px) {
+  .mountain {
+    display: none;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    left: 10%;
+    bottom: 300px;
+  }
+
+  .top-cloud {
+    position: absolute;
+    left: 55%;
+    top: 50px;
+  }
+  .bottom-cloud{
+    position:absolute;
+    top: 70%;
+  }
+
+  .top-container{
+      height: 465px
+  }
+
+  .profile{
+      width: 100%;
+      position:static;
+      margin: 0;
+      padding-bottom: 20px;
+  }
+
+  .first-skill{
+      position: static;
+      width: 100%;
+      padding: 20px 0;
+  }
+
+  .second-skill{
+      position: static;
+      width: 100%;
+      padding: 20px 0;
+  }
+
+  /* .profile-pic .javascript-pic .python-pic{
+      width: 160px;
+      height: auto;
+  } */
+}
+@media (max-width: 340px) {
+
+    .top-container{
+        height: 420px
+    }
+    
+    .middle-container{
+        padding: 30px 0;
+    }
+
+    .top-cloud{
+        left: 45%;
+    }
+
+    h1{
+        font-size: 3.5rem;
+    }
+
+    .bottom-cloud{
+        display: none;
+    }
+
+    .footer-link{
+        padding: 10px
+    }
+
+    .profile-pic {
+        width: 160px;
+        height: auto;
+    }
+    .profile-pic {
+        width: 160px;
+        height: auto;
+    }
+    .python-pic{
+        width: 160px;
+        height: auto;
+    }
+    .javascript-pic{
+        width: 160px;
+        height: auto;
+    }
+}
